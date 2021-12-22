@@ -1,0 +1,60 @@
+.i{
+    margin: 5%;
+    text-align: center;
+}
+.incdec{
+    margin: 2%;
+}
+.head{
+    box-shadow: 0px 2px 5px black;
+    margin: 2%;
+}
+.head h2 {
+    padding: 1%;
+}
+.head p{
+    padding: 1%;
+}
+.cart-container{
+    width: 90%;
+    height: 45rem;
+   box-shadow:0px 2px 5px black;
+   
+}
+.cdr{
+    margin: 5%;
+    margin-left: 30%;
+}
+.total{
+    margin: 3%;
+   
+}
+.total h3{
+    margin-left: 50%;
+   
+}
+.mn{
+    margin-left: 80%;
+}
+.total h3 span {
+    color: blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+}
+@media screen and (max-width: 992px) {
+    .total h3{
+        margin-left: 15%  !important;
+        margin: 5%;
+       
+    }
+    .cart-container{
+        width: 90%;
+        height: 35rem;
+       box-shadow:0px 2px 5px black;
+       
+    }
+    .cdr{
+        margin: 5%;
+        margin-left: 0%;
+    }
+  }
